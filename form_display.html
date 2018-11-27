@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Peer Evaluation - Processor</title>
+
+	<style>
+		div {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<form action = "form_processor.php" method = "post">
+		Team Project Name: <input type = "text" name = "project name" required> <br>
+		Time Start: <input type = "datetime-local" name = "project start"> <br>
+		Time End: <input type = "datetime-local" name = "project end"> <br>
+	<p>
+		Team Member 1: <input type = "text" name = "team member1"> <br>
+		Level of Participation:<select name = "participation1">
+													<option value = "Above and Beyond"> Above and Beyond </option>
+													<option value = "Satisfactory" > Satisfactory </option>
+													<option value = "Unsatisfactory"> Unsatisfactory </option>
+													<option value = "Absent"> Absent </option>
+												</select>
+	</p>
+	<p>
+		Team Member 2: <input type = "text" name = "team member2"> <br>
+		Level of Participation:<select name = "participation2">
+													<option value = "Above and Beyond"> Above and Beyond </option>
+													<option value = "Satisfactory" > Satisfactory </option>
+													<option value = "Unsatisfactory"> Unsatisfactory </option>
+													<option value = "Absent"> Absent </option>
+												</select>
+	</p>
+	<p>
+		Team Member 3: <input type = "text" name = "team member3"> <br>
+		Level of Participation:<select name = "participation3">
+													<option value = "Above and Beyond"> Above and Beyond </option>
+													<option value = "Satisfactory" > Satisfactory </option>
+													<option value = "Unsatisfactory"> Unsatisfactory </option>
+													<option value = "Absent"> Absent </option>
+												</select>
+	</p>
+	<p>
+		Team Member 4: <input type = "text" name = "team member4"> <br>
+		Level of Participation:<select name = "participation4">
+													<option value = "Above and Beyond"> Above and Beyond </option>
+													<option value = "Satisfactory" > Satisfactory </option>
+													<option value = "Unsatisfactory"> Unsatisfactory </option>
+													<option value = "Absent"> Absent </option>
+												</select>
+	</p>
+	<p>
+		Team Member 5: <input type = "text" name = "team member5"> <br>
+		Level of Participation:<select name = "participation5">
+													<option value = "Above and Beyond"> Above and Beyond </option>
+													<option value = "Satisfactory" > Satisfactory </option>
+													<option value = "Unsatisfactory"> Unsatisfactory </option>
+													<option value = "Absent"> Absent </option>
+												</select>
+	</p>
+		Comments: <br>
+		  <textarea name = "comments" rows ="4" cols = "50"> </textarea> <br>
+		Overall Team Grade: <select name = "grades">
+													<option value = "A+"> A+ </option>
+													<option value = "A"> A </option>
+													<option value = "A-"> A- </option>
+													<option value = "B+"> B+ </option>
+													<option value = "B"> B </option>
+													<option value = "B-"> B- </option>
+													<option value = "C+"> C+ </option>
+													<option value = "C"> C </option>
+													<option value = "C-"> C- </option>
+													<option value = "D+"> D+ </option>
+													<option value = "D"> D </option>
+													<option value = "D-"> D- </option>
+													<option value = "F"> F </option>
+
+		<input type="submit">
+
+	</form>
+</body>
+</html>
